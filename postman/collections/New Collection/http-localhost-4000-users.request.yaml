@@ -1,0 +1,24 @@
+$kind: http-request
+name: http://localhost:4000/users
+url: http://localhost:4000/users
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"Mr\",\r
+
+    \    \"firstName\": \"Jane\",\r
+
+    \    \"lastName\": \"Smith\",\r
+
+    \    \"email\": \"jane@example.com\",\r
+
+    \    \"password\": \"secret123\",\r
+
+    \    \"confirmPassword\": \"secret123\",\r
+
+    \    \"role\": \"User\"\r
+
+    }"
+order: 1776087352288

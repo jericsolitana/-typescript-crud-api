@@ -1,0 +1,30 @@
+$kind: http-request
+name: http://localhost:4000/users
+url: http://localhost:4000/users
+method: GET
+body:
+  type: json
+  content: "[\r
+
+    {\r
+
+    \"id\": 1,\r
+
+    \"email\": \"jane@example.com\",\r
+
+    \"title\": \"Mr\",\r
+
+    \"firstName\": \"Jane\",\r
+
+    \"LastName\": \"Smith\",\r
+
+    \"role\": \"User\",\r
+
+    \"createdAt\": \"2026-02-18T10:00:00.000Z\",\r
+
+    \"updatedAt\": \"2026-02-18T10:00:00.000Z\"\r
+
+    }\r
+
+    ]\r\n"
+order: 3886201704194790
